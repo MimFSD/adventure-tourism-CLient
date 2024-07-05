@@ -1,8 +1,6 @@
 # Torusim management
 
-
-- live-link-url [@https://assignment-10-4f92e.web.app/]
-
+-  live-link - <a href="https://assignment-10-4f92e.web.app/" target="blank">Adventure-Tourism</a> </p>
 
 # Feature
 
