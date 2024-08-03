@@ -35,7 +35,7 @@ const Navbar = () => {
 
   console.log("names", names1, images1);
   console.log("new id", names, images);
-
+ //navbar 
 
   const handleLogout = () => {
     logOut()
@@ -57,7 +57,7 @@ const Navbar = () => {
             isActive ? "bg-green-400 hover:bg-red-600" : isPending ? "" : ""
           }
         >
-        
+
           Home
         </NavLink>
         <Tooltip anchorSelect="#home" clickable>
@@ -106,6 +106,7 @@ const Navbar = () => {
               : ""
           }
         >
+
           Mylist
         </NavLink>
         <Tooltip anchorSelect="#mylist" clickable>
@@ -160,6 +161,8 @@ const Navbar = () => {
                   <div tabIndex={0} role="button" className="btn m-1">
                     <IoIosArrowDropdownCircle className="text-2xl"></IoIosArrowDropdownCircle>
                   </div>
+
+
                   <ul
                     tabIndex={0}
                     className="dropdown-content z-[20] menu p-2 shadow bg-base-100 rounded-box w-52"
