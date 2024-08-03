@@ -10,7 +10,11 @@ import { updateProfile } from "firebase/auth";
 const Registration = () => {
   const [showpass, setShowpass] = useState(false);
 
+
+
   const {createUser} = useContext(AuthContext)
+
+
 
   const handleregister = (e) => {
     e.preventDefault();
@@ -49,6 +53,8 @@ const Registration = () => {
       return;
     }
    
+
+    
     createUser(email,password)
     .then(result=>{
         updateProfile(result.user,{
