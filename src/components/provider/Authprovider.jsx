@@ -10,6 +10,7 @@ const githubProvider = new GithubAuthProvider();
 
 
 
+
 const Authprovider = ({children}) => {
    
     const [users,setUsers] = useState()
@@ -23,6 +24,8 @@ const Authprovider = ({children}) => {
     setLoading(true)
     return signInWithEmailAndPassword(auth,email,password)
     
+
+
 }
 const logOut = ()=>{
      setLoading(true)
@@ -32,6 +35,8 @@ const signIngoogle = ()=>{
     setLoading(true)
     return signInWithPopup(auth,googleProvider)
 }
+
+
 
 const signIngithub = ()=>{
      setLoading(true);
