@@ -7,6 +7,7 @@ const Homedetails = ({ item, setItems, items }) => {
     fetch(`http://localhost:5006/item/${id}`, {
       method: "DELETE"
     })
+
       .then((res) => res.json())
       .then((data) => {
         const reamining = items.filter((it) => it._id !== id);
@@ -14,6 +15,8 @@ const Homedetails = ({ item, setItems, items }) => {
         setItems(reamining);
       });
   };
+
+
   const updateButton = (id) => {
     console.log("hellow");
     const updateuser = { email: "nafis ahamed" };
@@ -24,12 +27,15 @@ const Homedetails = ({ item, setItems, items }) => {
       },
       body: JSON.stringify(updateuser)
     })
+
+
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
         if (data.modifiedCount > 0) {
           alert("user updated successfully");
         }
+
 
          location.reload()
 
@@ -43,6 +49,7 @@ const Homedetails = ({ item, setItems, items }) => {
       });
      
   };
+  
   return (
     <div>
       <div className="mt-2 flex gap-4">

@@ -9,7 +9,6 @@ const Touristdetails = () => {
     console.log(cards);
 
 
-    
     return (
         <div>
            {
