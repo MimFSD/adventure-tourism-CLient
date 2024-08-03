@@ -2,7 +2,7 @@
 Website Themes: Tourism Management website
 -  live-link - <a href="https://assignment-10-4f92e.web.app/" target="blank">Adventure-Tourism</a> </p>
 
-# Feature
+# Features
 
 - authentication base web site
 - login with github and google
