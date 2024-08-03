@@ -15,6 +15,36 @@ User-Generated Content: Enable users to share their travel photos, videos, and b
 - Voice Search and Commands: Implement voice search and commands to make navigation and information retrieval easier.
 - Real-Time Collaboration: Enable groups of travelers to plan and book their trips together in real time.
 
+Comprehensive Booking System:
+
+Users can book flights, hotels, tours, and activities.
+Integrated payment gateways (e.g., Stripe, PayPal) for secure transactions.
+Dynamic pricing based on demand and season.
+User Profiles:
+
+Personalized user profiles with booking history, preferences, and saved itineraries.
+Authentication using JSON Web Tokens (JWT) for secure login and registration.
+Search and Filter Capabilities:
+
+Advanced search options for destinations, accommodations, and activities.
+Filters based on price, ratings, amenities, and more.
+Reviews and Ratings:
+
+User-generated reviews and ratings for destinations, hotels, and activities.
+Sentiment analysis on reviews to gauge user satisfaction.
+Itinerary Planner:
+
+Tools for users to create and customize their travel itineraries.
+Dynamic itinerary adjustments based on real-time data and suggestions.
+Interactive Maps:
+
+Integration with Google Maps or Mapbox to show destinations, routes, and attractions.
+Augmented Reality (AR) tours for immersive destination previews.
+Customer Support:
+
+24/7 customer support via live chat and AI-powered chatbots.
+Automated email notifications for booking confirmations and updates.
+
 <!-- # Features
 
 - authentication base web site
@@ -23,12 +53,12 @@ User-Generated Content: Enable users to share their travel photos, videos, and b
 - mongoDb database 
 - No fake data contain -->
 
-# characteristic
+<!-- # characteristics
 - you cant enter private route without login
 - strong password so give security
 - includes Crud operation 
 - details every tourist card
-- show spacefic country spot data
+- show spacefic country spot data -->
 
 <!-- # package to need
    - "firebase": "^10.11.0",
