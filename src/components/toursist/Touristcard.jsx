@@ -20,6 +20,8 @@ const Touristcard = ({ data,index }) => {
     email,
     name
   } = data;
+
+  
   return (
     <div className={index === 0 && 'mt-16'}>
       <div className="card lg:w-96 md:w-96 w-72 bg-base-100 shadow-xl ml-7">
