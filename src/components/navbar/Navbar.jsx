@@ -12,6 +12,8 @@ const Navbar = () => {
   let names = "unknown";
   let images = "https://i.postimg.cc/0N2Fs1LG/photo-2024-04-10-15-50-24.jpg";
 
+
+
   let names1 = "";
   let images1 = "";
   if (users) {
@@ -34,6 +36,7 @@ const Navbar = () => {
   console.log("names", names1, images1);
   console.log("new id", names, images);
 
+
   const handleLogout = () => {
     logOut()
       .then(() => {
@@ -44,6 +47,7 @@ const Navbar = () => {
       });
   };
 
+
   const links = (
     <>
       <li className="lg:ml-4 p-2" id="home">
@@ -53,6 +57,7 @@ const Navbar = () => {
             isActive ? "bg-green-400 hover:bg-red-600" : isPending ? "" : ""
           }
         >
+        
           Home
         </NavLink>
         <Tooltip anchorSelect="#home" clickable>
