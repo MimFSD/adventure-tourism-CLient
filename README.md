@@ -15,6 +15,8 @@ User-Generated Content: Enable users to share their travel photos, videos, and b
 - Voice Search and Commands: Implement voice search and commands to make navigation and information retrieval easier.
 - Real-Time Collaboration: Enable groups of travelers to plan and book their trips together in real time.
 
+
+# Characteristics
 Comprehensive Booking System:
 
 Users can book flights, hotels, tours, and activities.
