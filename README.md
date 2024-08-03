@@ -27,7 +27,7 @@ User-Generated Content: Enable users to share their travel photos, videos, and b
 - you cant enter private route without login
 - strong password so give security
 - includes Crud operation 
-- deatils every tourist card
+- details every tourist card
 - show spacefic country spot data
 
 <!-- # package to need
