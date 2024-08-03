@@ -17,7 +17,7 @@ Website Themes: Tourism Management website
 - deatils every tourist card
 - show spacefic country spot data
 
-# package to need
+<!-- # package to need
    - "firebase": "^10.11.0",
    - "react": "^18.2.0",
    - "react-awesome-reveal": "^4.2.8",
@@ -32,4 +32,4 @@ Website Themes: Tourism Management website
    - "react-tooltip": "^5.26.3",
    - "sweetalert": "^2.1.2",
    - "sweetalert2": "^11.10.8",
-   - "swiper": "^11.1.1"
+   - "swiper": "^11.1.1" -->
