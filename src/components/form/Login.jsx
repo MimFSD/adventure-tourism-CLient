@@ -6,6 +6,8 @@ import "react-toastify/dist/ReactToastify.css";
 import { useContext } from "react";
 import { AuthContext } from "../provider/Authprovider";
 
+
+
 const Login = () => {
   const { signInUser, signIngoogle, signIngithub } = useContext(AuthContext);
   const handlelogin = (e) => {
@@ -18,6 +20,7 @@ const Login = () => {
       toast.error("email password fill up");
       return;
     }
+    
     signInUser(email, password)
       .then((result) => {
         console.log("login", result.user);
